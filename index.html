@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Movie Maniac</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">MovieManiac</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+  <div class="introduction">
+    <h1>Movie Search</h1>
+    <h3>Hola! You have come to the right place to search for top movies.</h3>
+  </div>
+  <div class="container-padding">
+    <h3 class="text display-4 text-center SearchHead">
+      Search for any Movie
+    </h3>
+  </div>
+  <form action="javascript:void(0);" class="form-inline">
+  <!--<div class="searchbutton">-->
+    <input type="text" class="form-control" id="search" placeholder="Search" style="left: 2cm" ; />
+    <button type="button" id="submit" onclick="Search()" style="height: 1cm;" style="margin-left: 0.5cm;">
+      Search
+    </button>
+  <!--</div>-->
+</form>
+  <script>var input = document.getElementById('search');
+    input.addEventListener('keyup', function (event) {
+      if (event.keyCode === 13) {
+        event.preventDefault();
+        document.getElementById('submit').click();
+      }
+    });</script>
+  <div class="container-fluid">
+    <div id="res"></div>
+  </div>
+  <div class="container-fluid">
+    <div id="desc"></div>
+  </div>
+
+  <script src="index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
