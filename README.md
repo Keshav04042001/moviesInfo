@@ -3,7 +3,7 @@
 
 <div>
 
-<img align="left" alt="Movies" src="https://raw.githubusercontent.com/keshav04042001/moviesInfo/master/img/Movie.png" width="200" height="200" />
+<img align="left" alt="Movies" src="https://raw.githubusercontent.com/keshav04042001/moviesInfo/master/img/Movie.png" width="500" height="500" />
 
-<img align="right" alt="Movies" src="https://raw.githubusercontent.com/keshav04042001/moviesInfo/master/img/Movie.png" width="200" height="200" />
+<img align="right" alt="Movies" src="https://raw.githubusercontent.com/keshav04042001/moviesInfo/master/img/Movie.png" width="500" height="500" />
 </div>
