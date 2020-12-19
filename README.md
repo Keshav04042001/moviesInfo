@@ -1,4 +1,4 @@
 ### Hey i am Keshav here to give you best movies
 # Give you all issues to me
 
-![Image](/Screenshot(373).png?raw=true "Title")
+![Alt text](relative/path/to/Movie.png?raw=true "Title")
