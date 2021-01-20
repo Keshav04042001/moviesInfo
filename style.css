@@ -56,3 +56,16 @@ img {
 table, th, td {
   border: 1px solid black;
 }
+.text{
+  font-style: italic;
+}
+h1:hover{
+  text-decoration:underline;
+  text-transform: uppercase;
+}
+h3:hover{
+  color:blueviolet;
+}
+.nav-toggle:hover{
+  text-transform: uppercase;
+}
