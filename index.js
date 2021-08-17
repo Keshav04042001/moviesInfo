@@ -1,9 +1,9 @@
 //const axios = require('axios');
 //const fs = require('fs');
 //const path = require('path')
-const link = ' https://www.omdbapi.com/?i=tt3896198&apikey=e602044f&r=json&s=';
+const link = ' https://www.omdbapi.com/?i=tt3896198&apikey=4cf1ed0b&r=json&s=';
 const link1 = 'https://www.omdbapi.com/?i=';
-const link2 = '&apikey=e602044f&r=json';
+const link2 = '&apikey=4cf1ed0b&r=json';
 function Search() {
   let search = document.getElementById('search').value;
   movies(search);
